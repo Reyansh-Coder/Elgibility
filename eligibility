@@ -1,0 +1,53 @@
+print("- Welcome to the National Youth League Eligibility Check -")
+print("----------------------------------------------------------") 
+
+# Input from user
+name = input("Enter your full name: ")
+age = int(input("Enter your age: "))
+
+# Check eligibility
+if 10 <= age <= 20:
+    print(f"\nCongratulations {name}!")
+    print("You are eligible for the following exclusive benefits:")
+    print("------------------------------------------------------")
+    print("1. 🏥 Junior Health Card - Free annual checkup and wellness coverage.")
+    print("2. 🎓 Training Access Pass - Get access to free online courses in AI, Coding, and Robotics.")
+    print("3. 🛡️ Tech Army Program - Train with cyber defense professionals in a mock National Service.")
+    print("4. 🎭 Youth Talent Quota - Fast-track admission to national competitions in science, arts, and sports.")
+    print("5. 🚀 Summer Innovation Camps - Fully sponsored 2-week tech + adventure camps across the country.")
+    print("🎓 Free Coaching for Competitive Exams (UPSC, SSC, JEE, etc.) provided! 📝📖")
+    print("6. 🌍 Global Youth Exchange Program - Travel and learn in 5 different countries.")
+    print("7. 🌱 Eco-Warrior Program - Participate in national environmental conservation projects.")
+    print("8. 🏆 National Youth Leadership Summit - Network with leaders and innovators.")
+    print("9. 🎉 Annual Youth Festival - Showcase your talents and meet like-minded peers.")
+    print("10. 🏅 National Youth Service Award - Recognition for your contributions to society.")
+    print("11. 🎤 Youth Ambassador Program - Represent your community on a national platform.")
+    print("12. 📚 Free access to e-books and online libraries.")
+    print("13. 🎨 Art and Culture Exchange - Collaborate with artists from different regions.")
+    print("14. 🏕️ Adventure Sports Training - Learn rock climbing, kayaking, and more.")
+    print("15. 🎤 Public Speaking and Debate Workshops - Enhance your communication skills.")
+    print("16. 🧑‍🤝‍🧑 Community Service Projects - Engage in meaningful community work.")
+    print("17. 🎓 Mentorship Program - Connect with industry leaders and mentors.")
+    print("18. 🏆 National Youth Awards - Recognize and celebrate your achievements.")
+    print("19. 🌐 Digital Literacy Workshops - Enhance your tech skills.")
+    print("20. 🥋 Free Martial Arts & Self-Defense Training! 💪")
+    print("21. 🎓 Government Scholarships available")
+    print("22. 🏆 National Youth Sports League - Compete in various sports at a national level.")
+    print("23. 🎨 Art and Culture Exchange - Collaborate with artists from different regions.")
+    print("24. 🏕️ Adventure Sports Training - Learn rock climbing, kayaking, and more.")
+    print("25. 🛠️ Government-funded Skill Development Programs for youth! 🚀👷")
+    print("26. 🚌 Free Bus Passes for School & College Students! 🏫🆓")
+    print("27. 🧠 Free Counseling & Mental Health Support in educational institutions! ❤️👩‍⚕️")
+    print("28. 🔬 Free Access to Science Kits & Innovation Labs in schools! 🧪⚗️")
+
+else:
+    print(f"\nSorry {name}, you are not eligible for this program.")
+    if age < 10:
+        print("Reason: You must be at least 10 years old.")
+        print("👉 Tip: You can apply for the 'Child Explorer' program instead!")
+    else:
+        print("Reason: This program is exclusive to youth aged between 10 and 20.")
+        print("👉 Tip: You may apply for 'National Senior Professionals Network'.")
+
+print("\nThank you for checking your eligibility.")
+print("Stay inspired. Stay involved. 🌟")
