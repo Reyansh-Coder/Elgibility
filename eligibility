@@ -15,7 +15,7 @@ if 10 <= age <= 20:
     print("3. 🛡️ Tech Army Program - Train with cyber defense professionals in a mock National Service.")
     print("4. 🎭 Youth Talent Quota - Fast-track admission to national competitions in science, arts, and sports.")
     print("5. 🚀 Summer Innovation Camps - Fully sponsored 2-week tech + adventure camps across the country.")
-    print("🎓 Free Coaching for Competitive Exams (UPSC, SSC, JEE, etc.) provided! 📝📖")
+    print("🎓 Free Coaching for Competitive Exams (UPSC, SSC, JEE, NEET, IOQM, NET, NDA, CAT, GATE, etc.) provided! 📝📖")
     print("6. 🌍 Global Youth Exchange Program - Travel and learn in 5 different countries.")
     print("7. 🌱 Eco-Warrior Program - Participate in national environmental conservation projects.")
     print("8. 🏆 National Youth Leadership Summit - Network with leaders and innovators.")
